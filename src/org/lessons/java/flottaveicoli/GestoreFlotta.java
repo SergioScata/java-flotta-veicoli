@@ -38,7 +38,7 @@ public class GestoreFlotta {
                 counterMoto++;
             }
         }
-        return "Il numero di automobili è: " + counterAuto + ", il numero di moto è: " + counterAuto;
+        return "Il numero di automobili è: " + counterAuto + ", il numero di moto è: " + counterMoto;
     }
 
     public FlottaVeicoli findVehicle (String targa){
