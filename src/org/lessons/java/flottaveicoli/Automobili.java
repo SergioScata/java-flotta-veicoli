@@ -15,4 +15,9 @@ public class Automobili extends FlottaVeicoli {
     public void setNumPorte(int numPorte) {
         this.numPorte = numPorte;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + " Numero di porte: " + getNumPorte();
+    }
 }

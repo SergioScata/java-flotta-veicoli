@@ -28,7 +28,8 @@ public abstract class FlottaVeicoli {
     }
 
 
-
-
-
+    @Override
+    public String toString() {
+        return "Targa: " + getTarga() + ", Anno di immatricolazione: " + getAnnoImmatricolazione();
+    }
 }

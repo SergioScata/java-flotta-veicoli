@@ -16,10 +16,16 @@ public class Motociclette extends FlottaVeicoli {
         this.cavalletto = cavalletto;
     }
 
+    public String haveCavalletto(){
+        if (cavalletto){
+            return "Ha il cavalletto";
+        }else {
+            return "Non ha il cavalleto";
+        }
+    }
 
-
-
-
-
-
+    @Override
+    public String toString() {
+        return super.toString() + " " + haveCavalletto() ;
+    }
 }
