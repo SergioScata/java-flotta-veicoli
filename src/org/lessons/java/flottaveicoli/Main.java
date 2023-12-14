@@ -5,9 +5,9 @@ public class Main {
         GestoreFlotta insiemeVeicoli = new GestoreFlotta();
 
         Automobili auto = new Automobili("LP4590RT", 2012, 5);
-        insiemeVeicoli.addVeicolo(auto);
+        insiemeVeicoli.addNewVeicolo(auto);
         Motociclette moto = new Motociclette("VN3789PH",2003, true);
-        insiemeVeicoli.addVeicolo(moto);
+        insiemeVeicoli.addNewVeicolo(moto);
 
         System.out.println(insiemeVeicoli.getAutoEMoto());
 
